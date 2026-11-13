@@ -1,0 +1,5 @@
+# Core pipeline (rules mode) uses only the Python 3.9+ standard library.
+# Optional, only for --mode llm:
+anthropic>=0.40
+# Optional, only to rebuild docs/Solution_Architecture.pdf:
+reportlab>=4.0
